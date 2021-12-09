@@ -1,0 +1,47 @@
+.rounded{
+    border-radius: 12px;
+}
+.video-card{
+    box-shadow: 0 0 rgba(0,0,0,.1), 0 2px 3px rgba(0,0,0,.2);
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px;
+}
+.video-res{
+    width: 100%;
+    height: auto;
+}
+.video-link{
+    width: 100%;
+    padding: 4px 4px;
+    border-radius: 122px;
+    background-color: rgb(229, 243, 255);
+    margin: 6px 0;
+    text-align: center;
+    
+}
+.video-link a{
+    color: dodgerblue;
+    text-decoration: none;
+}
+.small{
+    font-size: 14px;
+}
+.wave{
+    font-size: 32px;
+    animation-name: wave;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+  @keyframes wave{
+    0%{transform: rotate(0deg)}
+    10%{transform: rotate(14deg)}
+    20%{transform: rotate(-10deg)}
+    30%{transform: rotate(20deg)}
+    40%{transform: rotate(-5deg)}
+    50%{transform: rotate(10deg)}
+    60%{transform: rotate(0deg)}
+    100%{transform: rotate(0deg)}
+  }
